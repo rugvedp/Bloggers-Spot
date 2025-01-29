@@ -134,7 +134,7 @@ def main():
             inputs = {"name": company_name, "topic": topic, "tone": tone, "social_media": social_media}
             res = crew.kickoff(inputs)
             #print(res.raw)
-            st.write(res.raw)
+            #st.write(res.raw)
             # Display the generated blog
             st.subheader("Generated Blog")
             st.markdown(res.raw)
