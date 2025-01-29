@@ -6,8 +6,8 @@ This repository contains a Streamlit application that uses AI agents to generate
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/rugedp/blog-writing-ai.git
-    cd blog-writing-ai
+    git clone https://github.com/rugvedp/Bloggers-Spot.git
+    cd Bloggers-Spot
     ```
 
 2. Create a virtual environment and activate it:
