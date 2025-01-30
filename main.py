@@ -116,7 +116,7 @@ def main():
     # Input fields
     col1, col2 = st.columns(2)
     with col1:
-        company_name = st.text_input("Company Name", placeholder="Enter your company name")
+        company_name = st.text_input("Company Name/Link", placeholder="Enter your company name or link")
     with col2:
         topic = st.text_input("Topic", placeholder="Enter the blog topic")
 
