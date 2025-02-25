@@ -16,7 +16,7 @@ os.environ['SERPER_API_KEY'] = st.secrets['SERPER_API_KEY']
 os.environ['SAMBANOVA_API_KEY'] = st.secrets['SAMBANOVA_API_KEY'] 
 
 tool = SerperDevTool(
-    n_results=1,
+    n_results=3,
 )
 
 #Agents
